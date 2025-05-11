@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(245, 245, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(122, 33, 204);
+  font-style: oblique;
+}
+
+p {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.botao{
+    background-color: rgb(212, 208, 216);
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+}
+
+.botao:hover{
+    background-color: rgb(107, 49, 161);
+}
+
+.mensagem{
+    font-style: italic;
+    color: rgb(122, 33, 204);
+}
+
+ul {
+  list-style-position: inside;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.imagem-arredondada {
+  border-radius: 50px;
+  height: 280px;
+  display: block;
+  margin: 20px auto;
+}
+
+.texto-da-tabela {
+  margin-top: 25px;
+  color: rgb(122, 33, 204);
+  font-style: oblique;
+}
+
+table {
+  background-color: rgb(231, 208, 231);
+  border-color: blueviolet;
+  margin: 0 auto;
+}
+
+a.link-site{
+display: inline-block;
+  top: 20px;
+  color: blueviolet;
+  font-size: 15px;
+}
+  
+a.link-site:hover{
+    color: rgb(24, 2, 44);
+}
